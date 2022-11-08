@@ -1,14 +1,12 @@
 
 
-
-
-setup(){
+function setup(){
     
     video = createCapture(VIDEO);
     
-    canvas = createCanvas(300, 300);
+    canvas = createCanvas(400, 400);
   
-    video.size(300, 300);
+    video.size(390, 390);
 
     video.position(10, 50);
 
@@ -49,6 +47,8 @@ function gotPoses( results, error ){
 
         console.log("The rightWrist_x is "+ results[0].pose.rightWrist.x + "The RightWrist_y is"+ results[0].pose.rightWrist.y );
         
-        console.log("The leftWrist_x is"+ results[0].pose.leftWrist.x+ "The LeftWrist_y is " + results[0].pose.leftWrist.y ) ;
+        console.log("The leftWrist_x is"+ results[0].pose.leftWrist.x+ "The LeftWrist_y is " + results[0].pose.leftWrist.y );
+
+     }
 }
 

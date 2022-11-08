@@ -36,7 +36,7 @@
 
 #canvas{
 
-border: 10px;
+border: 50px black;
 
 box-shadow: 3px 3px 3px cyan;
 
@@ -45,3 +45,4 @@ padding: 10px;
 margin: 10px;
 
 }
+
